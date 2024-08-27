@@ -108,8 +108,20 @@ export default function Header() {
               className=" border-end navbar-brand pe-3 pe-sm-4 py-0"
               href="/"
             >
-              <Image className="logo-dark" src="assets/img/us1.png" alt="" />
-              <Image className="logo-white" src="assets/img/us1.png" alt="" />
+              <Image
+                className="logo-dark"
+                src="/public/assets/img/us1.png"
+                alt=""
+                width={100}
+                height={100}
+              />
+              <Image
+                className="logo-white"
+                src="/public/assets/img/us1.png"
+                alt=""
+                width={100}
+                height={100}
+              />
             </Link>
             {/* End Navbar Brand */}
             {/* Start Navbar Collapse */}
@@ -119,7 +131,12 @@ export default function Header() {
                 {/* Start Brand Logo For Mobile */}
                 <div className="collapse-brand flex-shrink-0">
                   <Link href="/">
-                    <img src="assets/img/us.png" alt="" />
+                    <Image
+                      src="/public/assets/img/us.png"
+                      alt=""
+                      width={100}
+                      height={100}
+                    />
                   </Link>
                 </div>
                 {/* End Brand Logo For Mobile */}

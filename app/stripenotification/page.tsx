@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 export default function StripeNotification() {
@@ -39,10 +40,12 @@ export default function StripeNotification() {
             <div className="row justify-content-center">
               <div className="col-sm-10 col-md-9 col-lg-7 text-center">
                 {/* Start Image */}
-                <img
-                  src="assets/img/png-img/stripe-notification.png"
+                <Image
+                  src="/public/assets/img/png-img/stripe-notification.png"
                   alt="Stripe Notification"
-                  className="img-fluid"
+                  className="img-fluid w-auto h-auto"
+                  width={860}
+                  height={571}
                 />
                 {/* /.End Image */}
                 <div className="mt-5">

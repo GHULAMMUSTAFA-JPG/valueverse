@@ -4,9 +4,9 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <p className="text-red-500 text-5xl bg-purple-600 w-full border-2 border-black ">
-        page
-      </p>
+      {/* <p className="text-red-500 text-5xl bg-purple-600 w-full border-2 border-black "> */}
+      page
+      {/* </p> */}
     </div>
   );
 };

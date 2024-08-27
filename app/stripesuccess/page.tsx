@@ -40,10 +40,12 @@ export default function NotFound() {
                 {/* Start Image */}
                 <Image
                   src="assets/img/png-img/page-not-found.png"
+                  width={860}
+                  height={571}
                   alt=""
-                  className="img-fluid"
+                  className="img-fluid  w-auto h-auto"
                 />
-                {/* /.End Image */}
+                {/* /.//End Image */}
                 <div className="mt-5">
                   <h2 className="fw-semibold mb-3 text-capitalize">
                     Payment Successful
