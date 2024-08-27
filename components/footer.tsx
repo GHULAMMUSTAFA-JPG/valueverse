@@ -7,11 +7,11 @@ const ClickHandler = () => {
   window.scrollTo(10, 0);
 };
 
-const SubmitHandler = (e) => {
+const SubmitHandler = (e: { preventDefault: () => void }) => {
   e.preventDefault();
 };
 
-const TravelBlogFooter = (props) => {
+const TravelBlogFooter = (props: any) => {
   return (
     <footer className="site-footer bg-white footer-style-three pt-80 pb-70">
       <div className="container">
