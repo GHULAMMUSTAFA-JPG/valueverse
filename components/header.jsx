@@ -108,8 +108,8 @@ export default function Header() {
               className=" border-end navbar-brand pe-3 pe-sm-4 py-0"
               href="/"
             >
-              <img className="logo-dark" src="assets/img/us1.png" alt="" />
-              <img className="logo-white" src="assets/img/us1.png" alt="" />
+              <Image className="logo-dark" src="assets/img/us1.png" alt="" />
+              <Image className="logo-white" src="assets/img/us1.png" alt="" />
             </Link>
             {/* End Navbar Brand */}
             {/* Start Navbar Collapse */}

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -49,7 +50,7 @@ export default function SignUp() {
                         className="bg-grey btn btn-lg google-btn d-flex align-items-center position-relative text-start"
                         href="#"
                       >
-                        <img src="assets/img/google.svg" alt="" />
+                        <Image src="assets/img/google.svg" alt="" />
                         <span className="ms-3">Sign up with Google</span>
                       </Link>
                       {/* Start Social login Button */}
@@ -57,8 +58,8 @@ export default function SignUp() {
                     {/* /.End Social Button Wrapper */}
                     {/* Start Text */}
                     <p>
-                      We won't post anything without your permission and your
-                      personal details are kept private
+                      We won&apos;t post anything without your permission and
+                      your personal details are kept private
                     </p>
                     {/* /.End Text */}
                     {/* Start Divider */}
@@ -190,7 +191,7 @@ export default function SignUp() {
                   </div>
                   <div className="col-lg-6 col-xl-7 order-lg-first pe-xl-5">
                     {/* Start Image */}
-                    <img
+                    <Image
                       src="assets/img/png-img/logo.svg"
                       alt=""
                       className="img-fluid"

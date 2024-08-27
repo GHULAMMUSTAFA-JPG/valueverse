@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 // import Layout from "@/components/Layout";
 import Link from "next/link";
 import { useState } from "react";
@@ -52,7 +53,7 @@ export default function SignIn() {
                         className="align-items-center bg-grey btn btn-lg d-flex linkedin-btn position-relative text-start"
                         href="#"
                       >
-                        <img src="assets/img/linkdin.svg" alt="" />
+                        <Image src="assets/img/linkdin.svg" alt="" />
                         <span className="ms-3">Sign up with LinkedIn</span>
                       </Link>
                       {/* /.End Social login Button */}
@@ -61,7 +62,7 @@ export default function SignIn() {
                         className="bg-grey btn btn-lg google-btn d-flex align-items-center position-relative text-start"
                         href="#"
                       >
-                        <img src="assets/img/google.svg" alt="" />
+                        <Image src="assets/img/google.svg" alt="" />
                         <span className="ms-3">Sign up with Google</span>
                       </Link>
                       {/* Start Social login Button */}
@@ -69,8 +70,8 @@ export default function SignIn() {
                     {/* /.End Social Button Wrapper */}
                     {/* Start Text */}
                     <p>
-                      We won't post anything without your permission and your
-                      personal details are kept private
+                      We won&apos;t post anything without your permission and
+                      your personal details are kept private
                     </p>
                     {/* /.End Text */}
                     {/* Start Divider */}
@@ -124,7 +125,7 @@ export default function SignIn() {
                     {/* Start Bottom Text */}
                     <div className="bottom-text text-center my-3">
                       {" "}
-                      Don't have an account?{" "}
+                      Don&apos;t have an account?{" "}
                       <Link
                         href="signup"
                         className="fw-medium text-decoration-underline"
@@ -143,7 +144,7 @@ export default function SignIn() {
                   </div>
                   <div className="col-lg-6 col-xl-7 order-lg-first pe-xl-5">
                     {/* Start Image */}
-                    <img
+                    <Image
                       src="assets/img/png-img/login.png"
                       alt=""
                       className="img-fluid"
